@@ -1,0 +1,49 @@
+.login_wrapper{
+    background-image: url(https://img.freepik.com/free-photo/white-painted-wall-texture-background_53876-138197.jpg?w=1380&t=st=1673775716~exp=1673776316~hmac=2ec2bdcddb4f58ec19571a3565801d8f7c5829ddac1eecb9749550d6b3154e12);
+    height: 100vh;
+    background-size: cover;
+    
+}
+
+.login_wrapper form{
+    width: 40vw;
+    margin: auto;
+    transform: translate(0%,50%);
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid green; */
+    gap: 2rem;
+    padding: 2rem;
+    background: rgb(235, 232, 231);
+    border-radius: 2rem;
+    box-shadow: 1px 1px 5px 4px white;
+}
+.login_wrapper form h1{
+    text-align: center;
+    color: coral;
+}
+.login_wrapper > form input{
+    border: 1px solid gold;
+    outline: none;
+    padding: 1rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+}
+.login_wrapper > form >button{
+    border: 1px solid  salmon;
+    width: 40%;
+    margin: auto;
+    padding: 1rem;
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 1rem;
+    color: crimson;
+    background: transparent;
+    transition: all 0.5s ;
+}
+
+.login_wrapper > form >button:hover{
+    background-color: violet;
+    color: white;
+    
+}

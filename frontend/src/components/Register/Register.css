@@ -1,0 +1,69 @@
+.register-wraper{
+    background-image: url(https://img.freepik.com/free-vector/blue-curve-frame-template_53876-114605.jpg?w=1380&t=st=1673770106~exp=1673770706~hmac=408a4e450d4f4f50cc927f553d501964f4e221cbf8469b71043832a7a60a864c);
+    background-size: cover;
+    background-clip: content-box;
+    height: 100vh;
+}
+.register{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width:30vw;
+    margin: auto;
+    transform: translate(0%,50%);
+    border: 1px solid gray;
+    padding: 0.5rem;
+    padding-bottom: 1rem;
+    box-shadow: 1px 1px 4px 1px;
+    border-radius: 0.4rem;
+}
+@media only screen and (max-width: 1200px){
+    /*Tablets [601px -> 1200px]*/
+    .register{
+        width: 60vw;
+    }
+    
+}
+@media only screen and (max-width: 800px){
+    /*Tablets [601px -> 1200px]*/
+    .register{
+        width: 80vw;
+    }
+    
+}
+.register input{
+    border: 1px solid rgb(58, 170, 133);
+    outline: none;
+    padding: 0.7rem;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+.register input[type=file]{
+    background: transparent;
+    border: none;
+    
+}
+.register button{
+    border: 1px solid firebrick;
+    padding: 0.5rem;
+    border-radius:1rem ;
+    cursor: pointer;
+    font-size: 1.2rem;
+    background: transparent;
+    transition: all 0.5s ease-in;
+}
+.register button:hover{
+    background-color: rgb(221, 214, 206);
+    color: firebrick;
+}
+.register h2{
+    margin: 0;
+    color: cadetblue;
+    text-align: center;
+}
+.border hr{
+    width: 30%;
+    color: aqua;
+    height: 0.1rem;
+    background-color: aqua;
+}
